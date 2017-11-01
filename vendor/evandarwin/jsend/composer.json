@@ -1,0 +1,18 @@
+{
+	"name": "evandarwin/jsend",
+	"description": "Basic JSend interface for PHP projects.",
+	"keywords": [
+		"jsend",
+		"json"
+	],
+	"require-dev": {
+		"codeclimate/php-test-reporter": "dev-master"
+	},
+	"license": "MIT",
+	"type": "project",
+	"autoload": {
+		"psr-4": {
+			"EvanDarwin\\JSend\\": "src/"
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "name": "evandarwin/laravel-jsend",
+  "description": "Laravel JSend Response Helper",
+  "keywords": [
+    "laravel",
+    "jsend",
+    "json",
+    "helper"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evan Darwin",
+      "email": "evan@devil.io"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "evandarwin/jsend": "1.2.*",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.0",
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "EvanDarwin\\JSend\\Laravel\\": "src/EvanDarwin/JSend/Laravel"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/LaravelJSend_TestCase.php"
+    ]
+  },
+  "minimum-stability": "stable"
+}
